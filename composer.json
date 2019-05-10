@@ -1,0 +1,20 @@
+{
+    "name": "htoomgt/pure_php_mvc",
+    "description": "A php mvc framework for common web development purpose.",
+    "authors": [
+        {
+            "name": "Htoo Maung Thait",
+            "email": "htoo.mt@blueplanet.com.mm"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Model\\": "model/",
+            "Controller\\": "controller/",
+            "Lib\\": "lib/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {}
+}
