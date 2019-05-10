@@ -25,6 +25,8 @@ class PersonController
 		$data['status'] = $_REQUEST['status'];
 		$data['note'] = $_REQUEST['note'];
 
+		
+
 		$lastInsertId = $this->person->insert($data);
 
 		if(!empty($lastInsertId)){
